@@ -26,3 +26,17 @@ h1 {
     color: blueviolet;
     font-style: italic;
 }
+
+#thediv {
+    background-color: rgb(71, 126, 69);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+#normal {
+    font-size: 2em;
+    background-color: black;
+    color: blanchedalmond;
+}
