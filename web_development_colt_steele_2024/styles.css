@@ -33,10 +33,17 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0.5em;
     font-size: 1.5em;
+    
 }
 
 #normal {
     font-size: 2em;
     background-color: black;
     color: blanchedalmond;
+}
+
+#inline {
+    display: inline-block;
+    height: 40%;
+    width: 40%;
 }
