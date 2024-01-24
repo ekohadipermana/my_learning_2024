@@ -6,3 +6,8 @@ while (beerCount != 0) {
     console.log('Take one, '+beerCount+' beers on the rack.');
 }
 
+
+for (var i = 0; i < 2; i++) {
+    console.log(i);
+    i++;
+}
