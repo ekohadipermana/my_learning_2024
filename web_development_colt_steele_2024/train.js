@@ -20,6 +20,8 @@ for (var i = 0; i < 2; i++) {
 // n2 = n0 + n1
 
 var fibSeq = [0, 1];
+var c0 = 0;
+var c1 = 1;
 var n0 = fibSeq[c0];
 var n1 = fibSeq[c1];
 var n2 = n0 + n1;
