@@ -25,4 +25,5 @@ var n1 = fibSeq[c1];
 var n2 = n0 + n1;
 c0++;
 c1++;
-
+fibSeq.push(n2);
+console.log(fibSeq);
