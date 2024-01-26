@@ -50,3 +50,8 @@ console.log(fibSeq);
 // So how to run Javascript when you code in the vscode is: keep the script in the head section of an html (you
 // can make a new dummy html file), run the html in a browser and open the developer tool in the browser. Every time
 // you want to run the script just refresh the browser.
+
+// Revision on how to run a javascript!!!
+// You can place js just like css, inline, internal and external.
+// Remember if you place external, put the link in the html body at the end!
+
