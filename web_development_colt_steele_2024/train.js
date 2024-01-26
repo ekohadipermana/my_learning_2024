@@ -47,4 +47,6 @@ while (c1 < qty){
 
 console.log(fibSeq);
 
-// 
+// So how to run Javascript when you code in the vscode is: keep the script in the head section of an html (you
+// can make a new dummy html file), run the html in a browser and open the developer tool in the browser. Every time
+// you want to run the script just refresh the browser.
