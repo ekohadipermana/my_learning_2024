@@ -43,4 +43,9 @@ console.log(userInfo['Name']); // how to call 1
 console.log(userInfo.Name);  // how to call 2
 // with the same method you can modify the value
 
+// for loop
+for(let x = 1; x <= 10; x++){
+    console.log(x);
+} // this is how: begin with x = 1, is x less than or equal with 10?, if yes then console log and x++
+
 
