@@ -48,4 +48,9 @@ for(let x = 1; x <= 10; x++){
     console.log(x);
 } // this is how: begin with x = 1, is x less than or equal with 10?, if yes then console log and x++
 
-
+// even number from 0 to 20
+for (let i = 0; i <= 20; i++){
+    if (i % 2 == 0){
+        console.log(i)
+    }
+}
