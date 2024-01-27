@@ -64,3 +64,6 @@ for (let i = 0; i <= 20; i += 2){
 for (i = 100; i >= 0; i -= 10){
     console.log(i);
 }
+
+// creating guessing game
+// creating simple todo list app
