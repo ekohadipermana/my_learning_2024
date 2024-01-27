@@ -18,3 +18,26 @@ console.log(learningTime);
 learningTime.unshift('03.00'); // to add to start
 console.log(learningTime);
 
+// concat arrays
+console.log(learningTime.concat(learningTimeDescription));
+
+// index of
+console.log(learningTime.indexOf('08.30'));
+// includes 
+console.log(learningTime.includes('24.00'));
+
+// reverse
+console.log(learningTime.reverse());
+
+// slice and splice
+console.log(learningTime.splice(0, 3));
+
+// Object literals (in python its dictionary)
+let userInfo = {
+    Name : 'Eko',
+    Age : 45,
+    AccountNum : 1,
+}
+console.log(userInfo);
+console.log(userInfo['Name']); // how to call
+
