@@ -54,3 +54,9 @@ for (let i = 0; i <= 20; i++){
         console.log(i)
     }
 }
+
+// or this:
+for (let i = 0; i <= 20; i += 2){
+    console.log(i);
+}
+
