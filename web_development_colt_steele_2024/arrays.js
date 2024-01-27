@@ -39,5 +39,8 @@ let userInfo = {
     AccountNum : 1,
 }
 console.log(userInfo);
-console.log(userInfo['Name']); // how to call
+console.log(userInfo['Name']); // how to call 1
+console.log(userInfo.Name);  // how to call 2
+// with the same method you can modify the value
+
 
