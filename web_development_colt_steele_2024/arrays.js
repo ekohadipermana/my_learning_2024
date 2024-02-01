@@ -67,3 +67,11 @@ for (i = 100; i >= 0; i -= 10){
 
 // creating guessing game
 // creating simple todo list app
+
+const a = ['a', 'b', 'c'];
+for (let i = 0; i < a.length; i++){
+    console.log(i, a[i]); 
+}
+// 0 'a'
+// 1 'b'
+// 2 'c'
