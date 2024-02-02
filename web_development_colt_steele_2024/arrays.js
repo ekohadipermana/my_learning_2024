@@ -75,3 +75,9 @@ for (let i = 0; i < a.length; i++){
 // 0 'a'
 // 1 'b'
 // 2 'c'
+
+let num = 0;
+while (num < 10) {
+    console.log(num);
+    num++;
+}
