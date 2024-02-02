@@ -85,3 +85,7 @@ while (num < 10) {
 function greet(name) {
     console.log(`Hello, ${name}, how are you?`);
 }
+
+function add(x, y) {
+    return x + y;
+}
