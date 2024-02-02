@@ -81,3 +81,7 @@ while (num < 10) {
     console.log(num);
     num++;
 }
+
+function greet(name) {
+    console.log(`Hello, ${name}, how are you?`);
+}
