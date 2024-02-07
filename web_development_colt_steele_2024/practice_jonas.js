@@ -15,3 +15,7 @@ console.log(markHigherBMI);
 
 // using template literal
 console.log(`The BMI of Mark is ${bmiMark}, and the BMI of John is ${bmiJohn}.`);
+console.log(`This is
+a multiline
+with 
+a template literal`);
