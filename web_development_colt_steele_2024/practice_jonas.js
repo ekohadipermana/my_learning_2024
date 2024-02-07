@@ -1,4 +1,5 @@
 // const bmi = mass / (height ** 2);
+/*
 let massMark;
 let heightMark;
 let massjohn;
@@ -21,5 +22,12 @@ with
 a template literal`);
 
 // testing
+*/
+
+let customerAge = 30;
+if (customerAge >= 18) {
+    console.log('You are adult ');
+    console.log('You are legal');
+}
 
 
