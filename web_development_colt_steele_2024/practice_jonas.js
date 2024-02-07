@@ -12,3 +12,6 @@ const bmiJohn = Math.round(massjohn / (heightJohn ** 2));
 console.log(bmiMark, bmiJohn);
 let markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
+
+// using template literal
+console.log(`The BMI of Mark is ${bmiMark}, and the BMI of John is ${bmiJohn}.`);
