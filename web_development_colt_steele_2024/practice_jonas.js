@@ -176,3 +176,7 @@ calcAge = function(year) {
 }
 
 console.log(calcAge(2024));
+
+// Arrow function
+const calcAge2 = year => year - 1979;
+console.log(calcAge(2024));
