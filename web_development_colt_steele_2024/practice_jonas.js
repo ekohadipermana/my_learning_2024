@@ -113,3 +113,11 @@ switch (day) {
     default:
         console.log('not valid');
 }
+
+// About Ternary Operator
+const age = 21;
+age >= 18 ? console.log('I like to drink wine 🍷') :
+            console.log('I like to drink water 🥛');
+
+
+// Exercise
