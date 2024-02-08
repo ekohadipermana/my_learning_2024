@@ -76,6 +76,21 @@ Your tasks:
 TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
 */
 
+let scoreDolphins;
+let scoreKoalas;
 
+dolphinScoreData = 96 + 108 + 89;
+koalaScoreData = 88 + 91 + 110;
+scoreDolphins = dolphinScoreData / 3;
+scoreKoalas = koalaScoreData / 3;
 
+if (scoreDolphins > scoreKoalas) {
+    console.log('Dolphin wins the trophy');
+}
+else if (scoreKoalas > scoreDolphins) {
+    console.log('Koal wins the trophy');
+}
+else if (scoreDolphins === scoreKoalas) {
+    console.log('Both win the trophy');
+}
 
