@@ -153,7 +153,10 @@ else if (bill < 50) {
 }
 console.log(tip)
 
+// the code 2:
+let tip2;
+let bill2 = 350;
 
-
-
+bill2 >= 50 && bill2 <= 300 ? tip = bill * 0.15 : tip2 = bill * 0.20; 
+console.log(tip2);
 
