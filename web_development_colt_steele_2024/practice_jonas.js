@@ -94,7 +94,7 @@ else if (scoreKoalas > scoreDolphins) {
 else if (scoreDolphins === scoreKoalas) {
     console.log('Both win the trophy');
 }
-*/
+
 
 // About Switch Statement
 const day = 'wednesday';
@@ -136,7 +136,7 @@ Note: Use the values of the bill and tip variables to construct this string. Don
 TEST DATA: Test with different bill values: 275, 40, and 430
 HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 HINT 2: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
-*/
+
 
 // the code 1:
 let tip;
@@ -154,9 +154,17 @@ else if (bill < 50) {
 console.log(tip)
 
 // the code 2:
-let tip2;
-let bill2 = 350;
 
-bill2 >= 50 && bill2 <= 300 ? tip = bill * 0.15 : tip2 = bill * 0.20; 
-console.log(tip2);
+// let tip2;
+// let bill2 = 350;
+
+// bill2 >= 50 && bill2 <= 300 ? tip = bill * 0.15 : tip2 = bill * 0.20; 
+// console.log(tip2);
+
+*/
+'use strict';
+let abc = 1979;
+if (abd === 1979) {
+    console.log('bingo');
+}
 
