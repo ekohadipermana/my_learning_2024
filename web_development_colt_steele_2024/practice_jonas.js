@@ -139,6 +139,14 @@ HINT 2: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 */
 
 // the code:
+let tip;
+let bill;
+
+bill >= 50 && bill <= 300 ? tip = bill * 0.15 : bill > 300 ? tip = bill * 0.2 :
+
+console.log(tip)
+
+
 
 
 
