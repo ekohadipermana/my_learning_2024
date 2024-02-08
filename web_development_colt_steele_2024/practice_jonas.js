@@ -138,14 +138,20 @@ HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 HINT 2: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 */
 
-// the code:
+// the code 1:
 let tip;
-let bill;
+let bill = 350;
 
-bill >= 50 && bill <= 300 ? tip = bill * 0.15 : bill > 300 ? tip = bill * 0.2 :
-
+if (bill >= 50 && bill <= 300) {
+    tip = bill * 0.15;
+}
+else if (bill > 300) {
+    tip = bill * 0.20;
+}
+else if (bill < 50) {
+    tip = 0;
+}
 console.log(tip)
-
 
 
 
