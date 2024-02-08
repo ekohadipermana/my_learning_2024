@@ -161,10 +161,18 @@ console.log(tip)
 // bill2 >= 50 && bill2 <= 300 ? tip = bill * 0.15 : tip2 = bill * 0.20; 
 // console.log(tip2);
 
-*/
+
 'use strict';
 let abc = 1979;
 if (abd === 1979) {
     console.log('bingo');
 }
+*/
 
+// anonymous function (a function without name)
+let year;
+calcAge = function(year) {
+    return year - 1979;
+}
+
+console.log(calcAge(2024));
