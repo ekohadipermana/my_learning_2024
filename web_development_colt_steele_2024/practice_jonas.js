@@ -74,7 +74,8 @@ Your tasks:
 
 
 TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
-*/
+
+
 
 let scoreDolphins;
 let scoreKoalas;
@@ -93,4 +94,22 @@ else if (scoreKoalas > scoreDolphins) {
 else if (scoreDolphins === scoreKoalas) {
     console.log('Both win the trophy');
 }
+*/
 
+// About Switch Statement
+const day = 'wednesday';
+
+switch (day) {
+    case 'monday': 
+        console.log('Learning HTML');
+        break;
+    case 'tuesday':
+        console.log('Learning CSS');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Learning Javascript');
+        break;
+    default:
+        console.log('not valid');
+}
